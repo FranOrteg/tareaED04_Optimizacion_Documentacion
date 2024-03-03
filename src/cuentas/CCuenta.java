@@ -18,11 +18,21 @@ public class CCuenta {
     private double saldo;
     private double tipoInterés;
 
+    /**
+     * Constructor por defecto 
+     */
+    
     public CCuenta()
     {
     }
     
-    // Constructor de la clase que recibe métodos setters
+    /**
+     * Constructor de la Clase que recibe por parámetros nombre, cuenta, saldo y tipo de interés
+     * @param nom Nombre
+     * @param cue Cuenta
+     * @param sal Saldo
+     * @param tipo Tipo de Interés
+     */
 
     public CCuenta(String nom, String cue, double sal, double tipo)
     {

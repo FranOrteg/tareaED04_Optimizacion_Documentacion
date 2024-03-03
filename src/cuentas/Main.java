@@ -1,6 +1,17 @@
 package cuentas;
 
+/**
+ * Clase principal que ejecuta la aplicación
+ */
+
 public class Main {
+	
+	/**
+	 * Punto de entrada, Se instancia un nuevo objeto de la clase Cuenta,
+	 * se establece la variable con el Método estado() de la clase CCuenta para después mostrarlo 
+	 * llamar al Método operativa_cuenta()
+	 * @param args Argumentos 
+	 */
 
     public static void main(String[] args) {
         CCuenta cuenta1;
@@ -12,6 +23,12 @@ public class Main {
 
         operativa_cuenta(cuenta1, 1200);
     }
+    
+    /**
+     * Método para el proceso de retirar e ingresar en cuenta
+     * @param cuenta1 Cuenta
+     * @param cantidad Cantidad
+     */
 
 	private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
 		try {
